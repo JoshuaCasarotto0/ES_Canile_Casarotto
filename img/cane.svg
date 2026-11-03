@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Cane">
+  <circle cx="100" cy="100" r="96" fill="#fde8c8"/>
+  <!-- orecchie -->
+  <ellipse cx="52" cy="92" rx="20" ry="40" fill="#8b5a2b" transform="rotate(18 52 92)"/>
+  <ellipse cx="148" cy="92" rx="20" ry="40" fill="#8b5a2b" transform="rotate(-18 148 92)"/>
+  <!-- testa -->
+  <ellipse cx="100" cy="102" rx="46" ry="50" fill="#c98b4f"/>
+  <!-- muso -->
+  <ellipse cx="100" cy="126" rx="28" ry="22" fill="#f3d9b5"/>
+  <!-- occhi -->
+  <circle cx="82" cy="94" r="7" fill="#2b1d12"/>
+  <circle cx="118" cy="94" r="7" fill="#2b1d12"/>
+  <circle cx="84" cy="92" r="2" fill="#ffffff"/>
+  <circle cx="120" cy="92" r="2" fill="#ffffff"/>
+  <!-- naso e bocca -->
+  <ellipse cx="100" cy="116" rx="10" ry="7" fill="#2b1d12"/>
+  <path d="M100 123 v8 M100 131 q-8 7 -14 1 M100 131 q8 7 14 1" stroke="#2b1d12" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- lingua -->
+  <path d="M94 136 q6 12 12 0 z" fill="#e8727a"/>
+</svg>

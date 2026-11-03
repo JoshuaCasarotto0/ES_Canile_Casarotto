@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Coniglio">
+  <circle cx="100" cy="100" r="96" fill="#e4f3e2"/>
+  <!-- orecchie -->
+  <ellipse cx="78" cy="54" rx="15" ry="44" fill="#f4f1ec" stroke="#cfc8bd" stroke-width="2"/>
+  <ellipse cx="122" cy="54" rx="15" ry="44" fill="#f4f1ec" stroke="#cfc8bd" stroke-width="2"/>
+  <ellipse cx="78" cy="56" rx="7" ry="32" fill="#f2b8c0"/>
+  <ellipse cx="122" cy="56" rx="7" ry="32" fill="#f2b8c0"/>
+  <!-- testa -->
+  <ellipse cx="100" cy="122" rx="48" ry="44" fill="#f4f1ec" stroke="#cfc8bd" stroke-width="2"/>
+  <!-- occhi -->
+  <circle cx="82" cy="114" r="7" fill="#3b2a2a"/>
+  <circle cx="118" cy="114" r="7" fill="#3b2a2a"/>
+  <circle cx="84" cy="112" r="2" fill="#ffffff"/>
+  <circle cx="120" cy="112" r="2" fill="#ffffff"/>
+  <!-- guance -->
+  <circle cx="72" cy="132" r="7" fill="#f6c9cf"/>
+  <circle cx="128" cy="132" r="7" fill="#f6c9cf"/>
+  <!-- naso, bocca e dentini -->
+  <path d="M94 128 h12 l-6 7 z" fill="#e8818f"/>
+  <path d="M100 135 q-6 7 -12 2 M100 135 q6 7 12 2" stroke="#5a4a4a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <rect x="95" y="138" width="10" height="9" rx="2" fill="#ffffff" stroke="#cfc8bd" stroke-width="1.5"/>
+  <path d="M100 138 v9" stroke="#cfc8bd" stroke-width="1.5"/>
+</svg>

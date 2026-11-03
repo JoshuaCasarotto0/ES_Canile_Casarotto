@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canile Adotta un amico</title>
+    <script src="dist/main.js" defer></script>
+</head>
+<body>
+    <h1>Canile «Adotta un amico»</h1>
+
+    <label for="nome"><b>Nome dell'animale:</b></label>
+    <input type="text" id="nome" name="nome" required>
+
+    <p>
+        <label for="specie"><b>Specie:</b></label>
+        <select id="specie" name="specie">
+            <option value="">Scegli la specie</option>
+            <option value="Cane">Cane</option>
+            <option value="Gatto">Gatto</option>
+            <option value="Coniglio">Coniglio</option>
+        </select>
+    </p>
+
+    <p><b>Taglia:</b>
+        <input type="radio" id="piccola" name="taglia" value="P">
+        <label for="piccola">Piccola</label>
+        <input type="radio" id="media" name="taglia" value="M">
+        <label for="media">Media</label>
+        <input type="radio" id="grande" name="taglia" value="G">
+        <label for="grande">Grande</label>
+    </p>
+
+    <p><b>Età:</b>
+        <input type="number" id="eta" name="eta" min="0" max="20" step="1" value="1" required>
+    </p>
+
+    <input type="checkbox" id="vaccinato" name="vaccinato" value="1">
+    <label for="vaccinato">Vaccinato</label>
+
+    <p>
+        <button id="registra" onclick="registra()">Registra</button>
+    </p>
+
+    <p id="messaggio"></p>
+
+    <p>
+        <img id="immagine" src="./img/specie.svg" alt="Immagine specie" width="120">
+    </p>
+
+    <h2>Pronti per l'adozione</h2>
+    <ul id="elenco-pronti"></ul>
+
+    <h2>In attesa di vaccino</h2>
+    <ul id="elenco-attesa"></ul>
+
+    <h2>Conteggio animali per specie</h2>
+    <table border="1">
+        <tr>
+            <th>Cane</th>
+            <th>Gatto</th>
+            <th>Coniglio</th>
+        </tr>
+        <tr>
+            <td id="conta_cane">0</td>
+            <td id="conta_gatto">0</td>
+            <td id="conta_coniglio">0</td>
+        </tr>
+    </table>
+
+    <p id="piu-ospitata"></p>
+
+    <p id="posti">Posti liberi: 6</p>
+
+</body>
+</html>
